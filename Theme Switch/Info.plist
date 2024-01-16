@@ -29,7 +29,7 @@
 	<key>NSAppleEventsUsageDescription</key>
 	<string>Try to access your system</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2019 ONTO. All rights reserved.</string>
+	<string>Copyright © 2024 Connor Stevens. All rights reserved.</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>

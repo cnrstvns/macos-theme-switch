@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Swift Toggle Mode
 //
-//  Created by Rizky Ariestiyansyah on 17/04/19.
-//  Copyright © 2019 ONTO. All rights reserved.
+//  Created by Connor Stevens on 01/16/24.
+//  Copyright © 2024 Connor Stevens. All rights reserved.
 //
 
 import Cocoa

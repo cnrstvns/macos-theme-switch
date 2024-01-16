@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,12 +16,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2EAD831D2266DFE0006932DC /* Dark Switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dark Switch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EAD831D2266DFE0006932DC /* Theme Switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Theme Switch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EAD83202266DFE0006932DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EAD83252266DFE1006932DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EAD83282266DFE1006932DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2EAD832A2266DFE1006932DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EAD832B2266DFE1006932DC /* Dark_Switch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dark_Switch.entitlements; sourceTree = "<group>"; };
+		2EAD832B2266DFE1006932DC /* Theme_Switch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Theme_Switch.entitlements; sourceTree = "<group>"; };
 		2EAD83312266E049006932DC /* customScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customScript.swift; sourceTree = "<group>"; };
 		2EAD83332266E088006932DC /* customScript.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = customScript.applescript; sourceTree = "<group>"; };
 		2EAD83362266E143006932DC /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
@@ -42,7 +42,7 @@
 		2EAD83142266DFE0006932DC = {
 			isa = PBXGroup;
 			children = (
-				2EAD831F2266DFE0006932DC /* Dark Switch */,
+				2EAD831F2266DFE0006932DC /* Theme Switch */,
 				2EAD831E2266DFE0006932DC /* Products */,
 				2EAD83352266E143006932DC /* Frameworks */,
 			);
@@ -51,23 +51,23 @@
 		2EAD831E2266DFE0006932DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2EAD831D2266DFE0006932DC /* Dark Switch.app */,
+				2EAD831D2266DFE0006932DC /* Theme Switch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2EAD831F2266DFE0006932DC /* Dark Switch */ = {
+		2EAD831F2266DFE0006932DC /* Theme Switch */ = {
 			isa = PBXGroup;
 			children = (
 				2EAD83202266DFE0006932DC /* AppDelegate.swift */,
 				2EAD83252266DFE1006932DC /* Assets.xcassets */,
 				2EAD83272266DFE1006932DC /* MainMenu.xib */,
 				2EAD832A2266DFE1006932DC /* Info.plist */,
-				2EAD832B2266DFE1006932DC /* Dark_Switch.entitlements */,
+				2EAD832B2266DFE1006932DC /* Theme_Switch.entitlements */,
 				2EAD83312266E049006932DC /* customScript.swift */,
 				2EAD83332266E088006932DC /* customScript.applescript */,
 			);
-			path = "Dark Switch";
+			path = "Theme Switch";
 			sourceTree = "<group>";
 		};
 		2EAD83352266E143006932DC /* Frameworks */ = {
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2EAD831C2266DFE0006932DC /* Dark Switch */ = {
+		2EAD831C2266DFE0006932DC /* Theme Switch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2EAD832E2266DFE1006932DC /* Build configuration list for PBXNativeTarget "Dark Switch" */;
+			buildConfigurationList = 2EAD832E2266DFE1006932DC /* Build configuration list for PBXNativeTarget "Theme Switch" */;
 			buildPhases = (
 				2EAD83192266DFE0006932DC /* Sources */,
 				2EAD831A2266DFE0006932DC /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "Dark Switch";
+			name = "Theme Switch";
 			productName = "Swift Toggle Mode";
-			productReference = 2EAD831D2266DFE0006932DC /* Dark Switch.app */;
+			productReference = 2EAD831D2266DFE0006932DC /* Theme Switch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -104,8 +104,9 @@
 		2EAD83152266DFE0006932DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = ONTO;
 				TargetAttributes = {
 					2EAD831C2266DFE0006932DC = {
@@ -118,7 +119,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2EAD83182266DFE0006932DC /* Build configuration list for PBXProject "Dark Switch" */;
+			buildConfigurationList = 2EAD83182266DFE0006932DC /* Build configuration list for PBXProject "Theme Switch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2EAD831C2266DFE0006932DC /* Dark Switch */,
+				2EAD831C2266DFE0006932DC /* Theme Switch */,
 			);
 		};
 /* End PBXProject section */
@@ -199,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -207,9 +209,12 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -260,6 +265,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -268,9 +274,12 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -294,13 +303,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = B6Q4JPWC46;
-				INFOPLIST_FILE = "Dark Switch/Info.plist";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 9TY3U535XZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Theme Switch/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Theme Switcher";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "onto.Dark-Switch";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.cnrstvns.macos-theme-switch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -312,13 +326,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = B6Q4JPWC46;
-				INFOPLIST_FILE = "Dark Switch/Info.plist";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 9TY3U535XZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Theme Switch/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Theme Switcher";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "onto.Dark-Switch";
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.cnrstvns.macos-theme-switch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -327,7 +346,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2EAD83182266DFE0006932DC /* Build configuration list for PBXProject "Dark Switch" */ = {
+		2EAD83182266DFE0006932DC /* Build configuration list for PBXProject "Theme Switch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2EAD832C2266DFE1006932DC /* Debug */,
@@ -336,7 +355,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2EAD832E2266DFE1006932DC /* Build configuration list for PBXNativeTarget "Dark Switch" */ = {
+		2EAD832E2266DFE1006932DC /* Build configuration list for PBXNativeTarget "Theme Switch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2EAD832F2266DFE1006932DC /* Debug */,
